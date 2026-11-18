@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#087b49">
+<title>Giải Pickleball lần thứ 6 – CLB Ao Làng</title>
+<style>
+:root{--green:#087b49;--deep:#075b39;--blue:#087bc1;--gold:#f7c948;--ink:#17324d;--muted:#64748b}
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:var(--ink);background:linear-gradient(180deg,#e7f7ff,#f4fff5 55%,#fff9e8)}
+.wrap{max-width:760px;margin:auto;padding:14px}.hero{overflow:hidden;border-radius:24px;background:#087b49;box-shadow:0 12px 30px #0b593326}
+.hero img{display:block;width:100%;height:auto}.heroText{padding:20px 18px 22px;text-align:center;color:white;background:linear-gradient(135deg,#087b49,#075b39)}
+.heroText .eyebrow{font-weight:800;letter-spacing:.12em;color:#ffe58a;font-size:.8rem}.heroText h1{font-size:clamp(1.6rem,6vw,2.5rem);line-height:1.08;margin:8px 0}.heroText p{margin:8px 0 0;font-weight:600}
+.pill{display:inline-block;margin-top:14px;background:#ffdf69;color:#17472f;padding:9px 16px;border-radius:999px;font-weight:900}
+.card{background:#fff;border:1px solid #d8eee1;border-radius:20px;padding:18px;margin-top:16px;box-shadow:0 8px 22px #17472f0c}
+h2{margin:0 0 14px;color:var(--deep);font-size:1.25rem}.timeline{display:grid;gap:10px}.event{display:grid;grid-template-columns:118px 1fr;gap:12px;align-items:start;padding:12px;border-radius:14px;background:#f4fbf6}.time{font-weight:900;color:#087b49}.event strong{display:block;margin-bottom:4px}.event p{margin:0;color:#42566b;font-size:.94rem;line-height:1.45}
+.address{background:#eef8ff;border-radius:14px;padding:14px;line-height:1.55}.address b{color:#075b9c}
+form{display:grid;gap:13px}.field label{display:block;font-weight:800;margin-bottom:6px}.field input,.field select{width:100%;padding:13px 14px;border:1px solid #cbd5e1;border-radius:12px;font:inherit;background:#fff;outline:none}.field input:focus,.field select:focus{border-color:#0b8a55;box-shadow:0 0 0 3px #0b8a5518}
+.hint{font-size:.82rem;color:var(--muted);margin-top:5px}.radioRow{display:flex;gap:10px;flex-wrap:wrap}.choice{display:flex;gap:8px;align-items:center;background:#f5faf7;border:1px solid #dcece2;padding:10px 12px;border-radius:12px;font-weight:600}
+.check{display:flex;gap:10px;align-items:flex-start;line-height:1.45;font-size:.93rem}.check input{margin-top:4px;transform:scale(1.15)}
+button{border:0;border-radius:14px;padding:15px;background:linear-gradient(135deg,#0b995b,#076b43);color:white;font-weight:900;font-size:1rem;cursor:pointer;box-shadow:0 7px 15px #087b4930}button:disabled{opacity:.5;cursor:not-allowed}
+.notice{font-size:.85rem;color:#64748b;line-height:1.5}.status{display:none;padding:12px;border-radius:12px;background:#e9f9ef;color:#075b39;font-weight:700}.footer{text-align:center;padding:22px 10px;color:#53705f;font-weight:700}
+@media(max-width:430px){.wrap{padding:9px}.card{padding:15px}.event{grid-template-columns:1fr;gap:4px}.hero{border-radius:18px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="hero">
+    <img src="poster-giai-dau.jpg" alt="Poster Giải Pickleball lần thứ 6 – Câu lạc bộ Ao Làng" onerror="this.style.display='none'">
+    <div class="heroText">
+      <div class="eyebrow">CÂU LẠC BỘ AO LÀNG</div>
+      <h1>GIẢI PICKLEBALL<br>LẦN THỨ 6</h1>
+      <p>Chung niềm đam mê – Trọn tình bạn hữu</p>
+      <div class="pill">THỨ BẢY · 12.12.2026</div>
+    </div>
+  </header>
+
+  <section class="card">
+    <h2>🏓 Lịch trình chương trình</h2>
+    <div class="timeline">
+      <div class="event"><div class="time">08h00 – 08h30</div><div><strong>Khai mạc</strong><p>Vinh danh nhà tài trợ · Bốc thăm đội thi đấu · Chụp hình lưu niệm các đội</p></div></div>
+      <div class="event"><div class="time">08h30 – 11h00</div><div><strong>Thi đấu</strong><p>Thi đấu bảng A/B của nữ · Thi đấu bảng A/B/C của Nam</p></div></div>
+      <div class="event"><div class="time">11h00 – 11h15</div><div><strong>Tổng kết – Trao giải</strong><p>Tổng kết và trao giải cho các đội thi đấu</p></div></div>
+      <div class="event"><div class="time">11h30 – 14h00</div><div><strong>Liên hoan</strong><p>Gặp gỡ, giao lưu tại Nhà hàng Làng Việt</p></div></div>
+    </div>
+  </section>
+
+  <section class="card">
+    <h2>📍 Địa điểm liên hoan</h2>
+    <div class="address"><b>Nhà hàng Làng Việt</b><br>194D, Đường Ấp Bắc, Phường Đạo Thạnh, Mỹ Tho</div>
+  </section>
+
+  <section class="card" id="xac-nhan">
+    <h2>📝 Xác nhận & đăng ký thông tin</h2>
+    <p class="notice">Vui lòng điền thông tin bên dưới để Ban tổ chức tổng hợp danh sách tham gia giải đấu.</p>
+    <form id="signupForm">
+      <div class="field"><label for="fullname">1. Họ và tên *</label><input id="fullname" name="fullname" required maxlength="100" placeholder="Nhập họ và tên đầy đủ"></div>
+      <div class="field"><label for="nickname">2. NICK NAME – Biệt danh bạn muốn đặt *</label><input id="nickname" name="nickname" required maxlength="40" placeholder="Ví dụ: Anh Hai, Pickleball King..."><div class="hint">Biệt danh dùng để hiển thị trong danh sách và hoạt động giao lưu.</div></div>
+      <div class="field"><label for="phone">3. Số điện thoại</label><input id="phone" name="phone" inputmode="tel" maxlength="20" placeholder="Nhập số điện thoại liên hệ"></div>
+      <div class="field"><label for="role">4. Đối tượng tham gia *</label><select id="role" name="role" required><option value="">-- Chọn đối tượng --</option><option>Vận động viên Nam</option><option>Vận động viên Nữ</option><option>Khách mời / Cổ động viên</option></select></div>
+      <div class="field"><label>5. Bạn có tham gia chương trình không? *</label><div class="radioRow"><label class="choice"><input type="radio" name="attendance" value="Có tham gia" required> Có tham gia</label><label class="choice"><input type="radio" name="attendance" value="Không tham gia"> Không tham gia</label></div></div>
+      <label class="check"><input type="checkbox" id="confirm" required><span>Tôi xác nhận đã đọc và nắm rõ thông tin, lịch trình tổ chức Giải Pickleball lần thứ 6.</span></label>
+      <button id="submitBtn" type="submit">GỬI XÁC NHẬN</button>
+      <div class="status" id="status"></div>
+      <p class="notice">Thông tin được sử dụng để Ban tổ chức tổng hợp công tác tổ chức giải. Vui lòng kiểm tra kỹ trước khi gửi.</p>
+    </form>
+  </section>
+  <div class="footer">HẸN GẶP NHAU TRÊN SÂN! 🏓</div>
+</div>
+<script>
+/* Dán URL Web App Google Apps Script vào dòng bên dưới sau khi triển khai. */
+const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbyWXbnq1nV1aeMpQu3WFrpL50nwuIe2K3e8oOo99KShmp4G5srRNigll-PMuPMqI2CD8A/exec";
+const form = document.getElementById('signupForm');
+form.addEventListener('submit', async (e) => {
+  e.preventDefault();
+  const btn = document.getElementById('submitBtn'), status = document.getElementById('status');
+  if (!form.reportValidity()) return;
+  if (GOOGLE_SCRIPT_URL.includes('PASTE_')) {
+    status.style.display='block';
+    status.textContent='Giao diện đã sẵn sàng. Để nhận đăng ký thật vào Google Sheets, cần kết nối URL Google Apps Script theo hướng dẫn trong file HUONG-DAN.txt.';
+    return;
+  }
+  const data = Object.fromEntries(new FormData(form).entries());
+  data.confirmed = document.getElementById('confirm').checked ? 'Đã xác nhận' : 'Chưa xác nhận';
+  data.submittedAt = new Date().toLocaleString('vi-VN');
+  btn.disabled=true; btn.textContent='ĐANG GỬI...';
+  try {
+    await fetch(GOOGLE_SCRIPT_URL,{method:'POST',mode:'no-cors',headers:{'Content-Type':'application/json'},body:JSON.stringify(data)});
+    status.style.display='block'; status.textContent='Cảm ơn bạn! Thông tin xác nhận đã được gửi. Hẹn gặp tại giải đấu!';
+    form.reset();
+  } catch(err) {
+    status.style.display='block'; status.textContent='Chưa gửi được thông tin. Vui lòng thử lại hoặc liên hệ Ban tổ chức.';
+  } finally {btn.disabled=false;btn.textContent='GỬI XÁC NHẬN';}
+});
+</script>
+</body>
+</html>
